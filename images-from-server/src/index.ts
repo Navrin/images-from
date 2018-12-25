@@ -100,7 +100,7 @@ router
         const id = uuid();
 
         const name = `${id}${ext}`;
-        const file = path.join(settings.endpoint, "images", name);
+        const file = `${settings.endpoint}images${name}`;
 
         await fs.promises.rename(
             output.path,
