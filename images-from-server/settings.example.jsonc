@@ -1,0 +1,12 @@
+{
+    "endpoint": "https://website.com", // Domain name of the website the server is hosting
+    "volume": "/directory/for/storage", // fs folder where images will be stored, needs to be persistant
+    "google": {
+        // google oauth creds
+        "id": "PUT ID HERE",
+        "secret": "PUT SECRET HERE",
+        "allowedUsers": ["emails@here.com"] // emails allowed to actually use the service.
+    },
+    "secret": "PUT A COOKIE SIGNING SECRET HERE",
+    "build": "../../images-from-client/build" // build folder for client
+}

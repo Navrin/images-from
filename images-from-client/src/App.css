@@ -1,0 +1,42 @@
+.App {
+    height: 100vh;
+    width: 100vw;
+
+    background: #222222;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-form {
+    background: #333;
+
+    font-weight: 200;
+    color: #eee;
+
+    height: 70%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    .App-form {
+        width: 30%;
+    }
+}
+
+.App-link {
+    height: 100%;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.2s linear color;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

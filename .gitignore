@@ -1,0 +1,26 @@
+
+images-from-server/settings.json
+images-from-server/tmp-images/
+images-from-server/node_modules
+
+# dependencies
+images-from-client/node_modules
+images-from-client/.pnp
+images-from-client/.pnp.js
+
+# testing
+images-from-client/coverage
+
+# production
+images-from-client/build
+
+# misc
+*/.DS_Store
+images-from-client/.env.local
+images-from-client/.env.development.local
+images-from-client/.env.test.local
+images-from-client/.env.production.local
+
+*/npm-debug.log*
+*/yarn-debug.log*
+*/yarn-error.log*
