@@ -1,0 +1,14 @@
+version: "3.0"
+
+services:
+    main:
+        image: navrin/images-from
+        build: .
+        ports:
+            - "3000:80"
+        volumes:
+            - ./settings.json:/app/images-from-server/settings.json
+            - images:/storage/images
+
+volumes:
+    images: {}
